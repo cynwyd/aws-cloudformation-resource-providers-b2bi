@@ -28,9 +28,14 @@
             <version>2.0.16</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/b2bi -->
-        <dependency>
+        <!-- <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>b2bi</artifactId>
+            <version>2.24.5</version>
+        </dependency> -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>b2bi-internal</artifactId>
             <version>2.24.5</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/sdk-core -->
